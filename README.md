@@ -1,4 +1,4 @@
-<a href="https://www.notion.so/FullStack-Programmer-12a087212d21471abfce21cb3c347298"><img src="https://img.shields.io/badge/Porfoilo-Docs-blue"/></a>
+<a href="https://kjdev.notion.site/Django-Developer-f36090b3c2cb41d8aa1422dbd7b1be7c"><img src="https://img.shields.io/badge/Porfoilo-Docs-blue"/></a>
 ![https://komarev.com/ghpvc/?username=kyungjunleeme](https://komarev.com/ghpvc/?username=kyungjunleeme)
 
 
