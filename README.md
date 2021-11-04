@@ -20,7 +20,7 @@
 
 
 ### ⭐ **GIST**
-◾ **[GIST]** https://gist.github.com/kyungjunleeme
+◾ https://gist.github.com/kyungjunleeme
 
 
 ### 🤝🏻 &nbsp;Contact
