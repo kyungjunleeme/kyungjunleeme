@@ -18,5 +18,10 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kyungjunleeme&show_icons=true&locale=en" alt="kyungjunleeme" /></p>
 
+
+### ⭐ **GIST**
+◾ **[GIST]** https://gist.github.com/kyungjunleeme
+
+
 ### 🤝🏻 &nbsp;Contact
 <a href="https://linkedin.com/in/kyungjunleeme" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kyungjunleeme" height="30" width="40" /></a>
