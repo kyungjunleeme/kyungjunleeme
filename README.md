@@ -5,6 +5,7 @@
 ## 👋 &nbsp;Django Developer 이경준(Kyungjun Lee)입니다. ☺️
 
 ✔️ &nbsp;사용하고 있는 Django에 의존하기 보다, Django를 통해 Web을 이해하려고 노력하고 있고, 성장에 대한 열정이 가득합니다.\
+✔️ &nbsp;22년 1월에는 commit을 쪼개기 위한 노력을 진행하고 있으며, commit 주도 개발에 관심이 많습니다. [관련자료](https://gyuwon.github.io/blog/2021/04/04/commit-message-driven-development.html) \
 ✔️ &nbsp;CI/CD를 추구합니다.\
 ✔️ &nbsp;회사에서 내가 가진 능력으로 현재 가지고 있는 문제를 해결하는 것에 초점을 두고 일을 하려고 합니다.\
 ✔️ &nbsp;의사소통의 기본은 내가 하고 있는 일에 대한 공유에서 시작한다고 생각합니다.\
