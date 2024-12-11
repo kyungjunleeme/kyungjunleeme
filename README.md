@@ -12,5 +12,7 @@ Welcome to my page! I'm Kyungjun Lee, a Software Engineer(Python) living in Seou
 
 2024 Data Engineer Loadmap
 https://blog.dataengineer.io/p/the-2024-breaking-into-data-engineering
+AI 커리어 시작하려는 개발자를 위한 조언
+https://yozm.wishket.com/magazine/detail/2845/?utm_source=oneoneone
 
 ![](github-metrics.svg)
