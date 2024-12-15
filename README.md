@@ -8,11 +8,26 @@ Welcome to my page! I'm Kyungjun Lee, a Software Engineer(Python) living in Seou
 </br>
 
 
-잘하고 싶습니다. 하루에 한 가지를 반드시 깨우치려고 합니다.
+천천천 하지만 분명히
 
 2024 Data Engineer Loadmap
+
 https://blog.dataengineer.io/p/the-2024-breaking-into-data-engineering
+
 AI 커리어 시작하려는 개발자를 위한 조언
+
 https://yozm.wishket.com/magazine/detail/2845/?utm_source=oneoneone
+
+Data Engineering projects 
+
+1️⃣ https://github.com/RSKriegs/finnhub-streaming-data-pipeline
+
+2️⃣ https://github.com/ankurchavda/streamify
+
+3️⃣ https://github.com/ABZ-Aaron/Reddit-API-Pipeline
+
+4️⃣ https://github.com/ris-tlp/audiophile-e2e-pipeline
+
+5️⃣ https://github.com/andrem8/surf_dash
 
 ![](github-metrics.svg)
