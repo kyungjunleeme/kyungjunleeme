@@ -8,7 +8,7 @@ Welcome to my page! I'm Kyungjun Lee, a Software Engineer(Python) living in Seou
 </br>
 
 
-천천천 하지만 분명히
+천천히 하지만 분명히
 
 2024 Data Engineer Loadmap
 
