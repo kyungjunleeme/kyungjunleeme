@@ -4,7 +4,7 @@
 
 
 
-Welcome to my page! I'm Kyungjun Lee, a Software Engineer(Python) living in Seoul, Korea.
+Welcome to my page! I'm Kyungjun Lee, a Data Engineer living in Seoul, Korea.
 </br>
 
 
