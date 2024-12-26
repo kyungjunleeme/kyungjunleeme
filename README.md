@@ -13,7 +13,6 @@ Welcome to my page! I'm Kyungjun Lee, a Data Engineer living in Seoul, Korea.
 결국은 문제를 해결하는 것이 중요하고, 일은 사람들이랑 함께 하는 것
 - https://docs.google.com/presentation/d/1__mcn-iMEbQlecCKzAUVE1J1pTNX7qsNP0SkMNfj_6A/edit#slide=id.g307838d1ef2_1_11
 
-
 2024 Data Engineer Loadmap
 
 - https://blog.dataengineer.io/p/the-2024-breaking-into-data-engineering
