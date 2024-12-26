@@ -10,14 +10,18 @@ Welcome to my page! I'm Kyungjun Lee, a Data Engineer living in Seoul, Korea.
 
 천천히 하지만 분명히
 
+결국은 문제를 해결하는 것이 중요하고, 일은 사람들이랑 함께 하는 것
+- https://docs.google.com/presentation/d/1__mcn-iMEbQlecCKzAUVE1J1pTNX7qsNP0SkMNfj_6A/edit#slide=id.g307838d1ef2_1_11
+
+
 2024 Data Engineer Loadmap
 
-https://blog.dataengineer.io/p/the-2024-breaking-into-data-engineering
-https://www.mltut.com/best-data-engineering-courses-online/?fbclid=IwZXh0bgNhZW0CMTAAAR3OSUNagGhvM7SpfqwoilAQNcVpoLD9o5eVsM6OIEx5Du70z_jl8bYTDu0_aem_xgmF74QDzvFXLJMHR9cL1w
+- https://blog.dataengineer.io/p/the-2024-breaking-into-data-engineering
+- https://www.mltut.com/best-data-engineering-courses-online/?fbclid=IwZXh0bgNhZW0CMTAAAR3OSUNagGhvM7SpfqwoilAQNcVpoLD9o5eVsM6OIEx5Du70z_jl8bYTDu0_aem_xgmF74QDzvFXLJMHR9cL1w
 
 AI 커리어 시작하려는 개발자를 위한 조언
 
-https://yozm.wishket.com/magazine/detail/2845/?utm_source=oneoneone
+- https://yozm.wishket.com/magazine/detail/2845/?utm_source=oneoneone
 
 Data Engineering projects 
 
