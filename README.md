@@ -18,6 +18,9 @@ Welcome to my page! I'm Kyungjun Lee, a Data Engineer living in Seoul, Korea.
 - https://blog.dataengineer.io/p/the-2024-breaking-into-data-engineering
 - https://www.mltut.com/best-data-engineering-courses-online/?fbclid=IwZXh0bgNhZW0CMTAAAR3OSUNagGhvM7SpfqwoilAQNcVpoLD9o5eVsM6OIEx5Du70z_jl8bYTDu0_aem_xgmF74QDzvFXLJMHR9cL1w
 
+잘 만든 데이터 엔지니어링 블로그
+- https://www.ssp.sh/brain/one-big-table/
+
 AI 커리어 시작하려는 개발자를 위한 조언
 
 - https://yozm.wishket.com/magazine/detail/2845/?utm_source=oneoneone
