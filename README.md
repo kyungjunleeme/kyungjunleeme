@@ -21,9 +21,13 @@ Welcome to my page! I'm Kyungjun Lee, a Data Engineer living in Seoul, Korea.
 잘 만든 데이터 엔지니어링 블로그
 - https://www.ssp.sh/brain/one-big-table/
 
+토스의 데이터 조직
+- https://recruit-data-division.oopy.io/
+
 AI 커리어 시작하려는 개발자를 위한 조언
 
 - https://yozm.wishket.com/magazine/detail/2845/?utm_source=oneoneone
+
 
 Data Engineering projects 
 
