@@ -16,6 +16,8 @@ Welcome to my page! I'm Kyungjun Lee, a Data Engineer living in Seoul, Korea.
 ![image](https://github.com/user-attachments/assets/a2affc69-df33-4852-802d-5ef274abd740)
 - https://alirezasadeghi1.medium.com/open-source-data-engineering-landscape-2025-9c76011ff6c1
 
+![image](https://github.com/user-attachments/assets/a3e97f30-397a-4b8b-bd93-3e0f9be2297c)
+
 
 2024 Data Engineer Loadmap
 
