@@ -16,17 +16,12 @@ Welcome to my page! I'm Kyungjun Lee, a Data Engineer living in Seoul, Korea.
 ##  Apache Airflow Contributions & Community
 
 ### 📌 Pull Requests
+
+25년 6월
 - [Remove DB tests from OpenSearch provider (#52213)](https://github.com/apache/airflow/pull/52213) – OpenSearch provider에서 DB 의존 테스트 제거
 - [Clean up remaining DB‑dependent tests (#52235)](https://github.com/apache/airflow/pull/52235) – 연계하여 나머지 DB 의존 테스트 정리
 - [Improve Breeze error message for --backend=none (#52318)](https://github.com/apache/airflow/pull/52318) – Breeze 사용성 개선
 - [Provider Migration: Update trino for Airflow 3.0 compatibility (#52383)](https://github.com/apache/airflow/pull/52383) – Trino provider의 3.0 대응
-
-
-### 💬 Community Involvement
-- Participated in provider migration discussions (e.g., for `druid`, `kafka`, `flink`)
-- Suggested Helm chart improvements and error message enhancements for new contributors
-
-
 
 <!--
 
