@@ -2,7 +2,7 @@ name: OSS Contribution Graph
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # 매일 01:00 UTC
+    - cron: '15 19 * * *'
   workflow_dispatch:
     inputs:
       targets:
