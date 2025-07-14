@@ -59,5 +59,7 @@ Data Engineering projects
 
 5️⃣ https://github.com/andrem8/surf_dash
 -->
+<div align="center">
+  <img src="github-metrics.svg" alt="Metrics" />
+</div>
 
-![](github-metrics.svg)
