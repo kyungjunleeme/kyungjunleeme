@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Define animations -->
+    <defs>
+        <style type="text/css">
+            @keyframes drawLine {
+                0% {
+                    stroke-dashoffset: 2000;
+                }
+                100% {
+                    stroke-dashoffset: 0;
+                }
+            }
+            .animated-line {
+                stroke-dasharray: 2000;
+                stroke-dashoffset: 2000;
+                animation: drawLine 1.5s ease-in-out forwards;
+            }
+            /* Remove the general animated-point class as we'll create individual dot animations */
+        </style>
+    </defs>
+    
+    <!-- Define chart background -->
+    <rect x="0" y="0" width="1200" height="600" fill="#fffefe"/>
+
+    <!-- Y-axis line -->
+    <line x1="100" y1="100" x2="100" y2="550" stroke="#555555" stroke-width="1.5"/>
+
+    <!-- X-axis line -->
+    <line x1="100" y1="550" x2="1100" y2="550" stroke="#555555" stroke-width="1.5"/>
+
+    <!-- Chart grid -->
+    <g stroke="#ffffff" stroke-width="1">
+        
+        
+        
+            
+            <line x1="100" y1="550.0" x2="1100" y2="550.0" stroke-opacity="0.6"/>
+        
+            
+            <line x1="100" y1="460.0" x2="1100" y2="460.0" stroke-opacity="0.6"/>
+        
+            
+            <line x1="100" y1="370.0" x2="1100" y2="370.0" stroke-opacity="0.6"/>
+        
+            
+            <line x1="100" y1="280.0" x2="1100" y2="280.0" stroke-opacity="0.6"/>
+        
+            
+            <line x1="100" y1="190.0" x2="1100" y2="190.0" stroke-opacity="0.6"/>
+        
+            
+            <line x1="100" y1="100.0" x2="1100" y2="100.0" stroke-opacity="0.6"/>
+        
+        
+        
+            
+            <line x1="100.0" y1="100" x2="100.0" y2="550" stroke-opacity="0.6"/>
+        
+            
+            <line x1="1100.0" y1="100" x2="1100.0" y2="550" stroke-opacity="0.6"/>
+        
+    </g>
+
+    <!-- Y-axis numbers -->
+    
+        
+        <text x="1112" y="555.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">0</text>
+    
+        
+        <text x="1112" y="465.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">2</text>
+    
+        
+        <text x="1112" y="375.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">4</text>
+    
+        
+        <text x="1112" y="285.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">7</text>
+    
+        
+        <text x="1112" y="195.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">9</text>
+    
+        
+        <text x="1112" y="105.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">12</text>
+    
+
+    <!-- Chart title -->
+    <text x="600" y="65" font-family="Arial" font-size="30" text-anchor="middle" fill="#434d58">
+        Contribution History of <tspan font-weight="bold" fill="#2f80ed">kyungjunleeme</tspan> in <tspan font-weight="bold" fill="#2f80ed">apache/airflow</tspan>
+    </text>
+    
+    <!-- X-axis labels (months) -->
+    
+        
+        <text x="100.0" y="580" font-family="Arial" font-size="18" text-anchor="middle" transform="rotate(0, 100.0, 580)" fill="#434d58">
+            2025-06
+        </text>
+    
+        
+        <text x="1100.0" y="580" font-family="Arial" font-size="18" text-anchor="middle" transform="rotate(0, 1100.0, 580)" fill="#434d58">
+            2025-07
+        </text>
+    
+    
+    <!-- Y-axis label -->
+    <text x="80" y="325" font-family="Arial" font-size="22" text-anchor="middle" transform="rotate(-90, 80, 325)" font-weight="bold" fill="#434d58">
+        Number of Pull Requests
+    </text>
+    
+    <!-- Plot authored PRs line -->
+    <path
+        fill="none"
+        stroke="#2f80ed"
+        stroke-width="3"
+        class="animated-line"
+        d="
+            
+            
+            M100.0,252.47933884297527
+            
+            
+            
+            
+                
+                
+                
+                
+                C350.0,252.47933884297527 850.0,140.90909090909093 1100.0,140.90909090909093
+            "
+    />
+    
+    <!-- Plot reviewed PRs line -->
+    <path
+        fill="none"
+        stroke="#4c71f2"
+        stroke-width="3"
+        class="animated-line"
+        d="
+            
+            
+            M100.0,326.85950413223145
+            
+            
+            
+            
+                
+                
+                
+                
+                C350.0,326.85950413223145 850.0,475.6198347107438 1100.0,475.6198347107438
+            "
+    />
+    
+    <!-- Authored data points with values -->
+    
+        
+        
+        
+        <circle cx="100.0" cy="252.47933884297527" r="5" fill="#2f80ed" opacity="0">
+            <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.0s" fill="freeze" />
+        </circle>
+    
+        
+        
+        
+        <circle cx="1100.0" cy="140.90909090909093" r="5" fill="#2f80ed" opacity="0">
+            <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.75s" fill="freeze" />
+        </circle>
+    
+    
+    <!-- Reviewed data points with values -->
+    
+        
+        
+        
+        <circle cx="100.0" cy="326.85950413223145" r="5" fill="#4c71f2" opacity="0">
+            <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.0s" fill="freeze" />
+        </circle>
+    
+        
+        
+        
+        <circle cx="1100.0" cy="475.6198347107438" r="5" fill="#4c71f2" opacity="0">
+            <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.75s" fill="freeze" />
+        </circle>
+    
+        
+    <!-- Authored legend item -->
+    <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0s" fill="freeze" />
+        <rect x="130" y="115" width="233" height="30" rx="5" ry="5" fill="#2f80ed" fill-opacity="0.5" />
+        <text x="140" y="137" font-family="Arial" font-size="20" fill="#434d58">
+            Total PRs Authored: <tspan font-weight="bold">19</tspan>
+        </text>
+    </g>
+    
+    <!-- Reviewed legend item -->
+    <g opacity="0">
+        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.5s" fill="freeze" />
+        <rect x="130" y="155" width="233" height="30" rx="5" ry="5" fill="#4c71f2" fill-opacity="0.5" />
+        <text x="140" y="177" font-family="Arial" font-size="20" fill="#434d58">
+            Total PRs Reviewed: <tspan font-weight="bold">8</tspan>
+        </text>
+    </g>
+</svg>
