@@ -1,0 +1,46 @@
+name: OSS Contribution Graph
+
+on:
+  schedule:
+    - cron: '0 1 * * *'  # 매일 01:00 UTC
+  workflow_dispatch:
+    inputs:
+      targets:
+        description: 'Target repositories and usernames (e.g. kyungjunleeme@apache/airflow)'
+        required: true
+        type: string
+        default: 'kyungjunleeme@apache/airflow'
+      exclude_review:
+        description: 'Exclude review contributions'
+        required: false
+        type: boolean
+        default: false
+
+env:
+  DEFAULT_TARGETS: 'kyungjunleeme@apache/airflow'
+  EXCLUDE_REVIEW: 'false'
+
+jobs:
+  update-histogram:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate Contribution Graph
+        uses: peterxcli/gh-contribution-graph-action@main
+        with:
+          targets: ${{ github.event.inputs.targets || env.DEFAULT_TARGETS }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          output_dir: 'images'
+          exclude_authored_from_reviewed: ${{ github.event.inputs.exclude_review || env.EXCLUDE_REVIEW }}
+
+      - name: Commit and push updated image
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add images/*.svg
+          git commit -m "Update OSS contribution graph" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
