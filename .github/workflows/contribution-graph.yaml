@@ -2,7 +2,7 @@ name: OSS Contribution Graph
 
 on:
   schedule:
-    - cron: '15 19 * * *'  # 매일 19:15 UTC = 한국 시간 04:15
+    - cron: '15 19 * * *'
   workflow_dispatch:
     inputs:
       targets:
@@ -27,11 +27,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # git pull 가능하게 전체 기록 clone
-
-      - name: Set timestamp
-        id: vars
-        run: echo "timestamp=$(date +%Y%m%d-%H%M%S)" >> "$GITHUB_OUTPUT"
+          fetch-depth: 0
 
       - name: Generate Contribution Graph
         uses: peterxcli/gh-contribution-graph-action@main
@@ -39,19 +35,14 @@ jobs:
           targets: ${{ github.event.inputs.targets || env.DEFAULT_TARGETS }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           output_dir: 'images'
-          output_filename: "oss-graph-${{ steps.vars.outputs.timestamp }}.svg"
           exclude_authored_from_reviewed: ${{ github.event.inputs.exclude_review || env.EXCLUDE_REVIEW }}
-
-      - name: Copy image to fixed filename
-        run: |
-          cp images/oss-graph-${{ steps.vars.outputs.timestamp }}.svg images/kyungjunleeme-apache-airflow-contribution-graph.svg
 
       - name: Commit and push updated image
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
           git pull origin $(git rev-parse --abbrev-ref HEAD)
-          git add images/
+          git add images/kyungjunleeme-apache-airflow-contribution-graph.svg
           git commit -m "Update OSS contribution graph" || echo "No changes to commit"
           git push
         env:
