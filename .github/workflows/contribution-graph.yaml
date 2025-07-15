@@ -27,19 +27,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Set timestamp
+        id: vars
+        run: echo "timestamp=$(date +%Y%m%d-%H%M%S)" >> "$GITHUB_OUTPUT"
+
       - name: Generate Contribution Graph
         uses: peterxcli/gh-contribution-graph-action@main
         with:
           targets: ${{ github.event.inputs.targets || env.DEFAULT_TARGETS }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           output_dir: 'images'
+          output_filename: "oss-graph-${{ steps.vars.outputs.timestamp }}.svg"
           exclude_authored_from_reviewed: ${{ github.event.inputs.exclude_review || env.EXCLUDE_REVIEW }}
 
       - name: Commit and push updated image
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
-          git add images/*.svg
+          git add images/
           git commit -m "Update OSS contribution graph" || echo "No changes to commit"
           git push
         env:
