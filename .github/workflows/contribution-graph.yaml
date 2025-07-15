@@ -26,6 +26,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # allow full history for pull
 
       - name: Set timestamp
         id: vars
@@ -44,6 +46,7 @@ jobs:
         run: |
           git config --global user.name 'GitHub Action'
           git config --global user.email 'action@github.com'
+          git pull origin $(git rev-parse --abbrev-ref HEAD)
           git add images/
           git commit -m "Update OSS contribution graph" || echo "No changes to commit"
           git push
