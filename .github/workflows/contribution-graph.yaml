@@ -2,7 +2,7 @@ name: OSS Contribution Graph
 
 on:
   schedule:
-    - cron: '15 19 * * *'
+    - cron: '15 19 * * *'  # 매일 19:15 UTC = 한국 시간 04:15
   workflow_dispatch:
     inputs:
       targets:
@@ -27,7 +27,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # allow full history for pull
+          fetch-depth: 0  # git pull 가능하게 전체 기록 clone
 
       - name: Set timestamp
         id: vars
@@ -41,6 +41,10 @@ jobs:
           output_dir: 'images'
           output_filename: "oss-graph-${{ steps.vars.outputs.timestamp }}.svg"
           exclude_authored_from_reviewed: ${{ github.event.inputs.exclude_review || env.EXCLUDE_REVIEW }}
+
+      - name: Copy image to fixed filename
+        run: |
+          cp images/oss-graph-${{ steps.vars.outputs.timestamp }}.svg images/kyungjunleeme-apache-airflow-contribution-graph.svg
 
       - name: Commit and push updated image
         run: |
