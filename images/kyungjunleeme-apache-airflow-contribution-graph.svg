@@ -71,16 +71,16 @@
         <text x="1112" y="465.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">2</text>
     
         
-        <text x="1112" y="375.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">4</text>
+        <text x="1112" y="375.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">5</text>
     
         
         <text x="1112" y="285.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">7</text>
     
         
-        <text x="1112" y="195.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">9</text>
+        <text x="1112" y="195.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">10</text>
     
         
-        <text x="1112" y="105.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">12</text>
+        <text x="1112" y="105.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">13</text>
     
 
     <!-- Chart title -->
@@ -115,7 +115,7 @@
         d="
             
             
-            M100.0,252.47933884297527
+            M100.0,277.2727272727273
             
             
             
@@ -124,7 +124,7 @@
                 
                 
                 
-                C350.0,252.47933884297527 850.0,140.90909090909093 1100.0,140.90909090909093
+                C350.0,277.2727272727273 850.0,140.90909090909093 1100.0,140.90909090909093
             "
     />
     
@@ -137,7 +137,7 @@
         d="
             
             
-            M100.0,326.85950413223145
+            M100.0,345.4545454545455
             
             
             
@@ -146,7 +146,7 @@
                 
                 
                 
-                C350.0,326.85950413223145 850.0,438.4297520661157 1100.0,438.4297520661157
+                C350.0,345.4545454545455 850.0,447.72727272727275 1100.0,447.72727272727275
             "
     />
     
@@ -155,7 +155,7 @@
         
         
         
-        <circle cx="100.0" cy="252.47933884297527" r="5" fill="#2f80ed" opacity="0">
+        <circle cx="100.0" cy="277.2727272727273" r="5" fill="#2f80ed" opacity="0">
             <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.0s" fill="freeze" />
         </circle>
     
@@ -172,14 +172,14 @@
         
         
         
-        <circle cx="100.0" cy="326.85950413223145" r="5" fill="#4c71f2" opacity="0">
+        <circle cx="100.0" cy="345.4545454545455" r="5" fill="#4c71f2" opacity="0">
             <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.0s" fill="freeze" />
         </circle>
     
         
         
         
-        <circle cx="1100.0" cy="438.4297520661157" r="5" fill="#4c71f2" opacity="0">
+        <circle cx="1100.0" cy="447.72727272727275" r="5" fill="#4c71f2" opacity="0">
             <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.75s" fill="freeze" />
         </circle>
     
@@ -189,7 +189,7 @@
         <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0s" fill="freeze" />
         <rect x="130" y="115" width="233" height="30" rx="5" ry="5" fill="#2f80ed" fill-opacity="0.5" />
         <text x="140" y="137" font-family="Arial" font-size="20" fill="#434d58">
-            Total PRs Authored: <tspan font-weight="bold">19</tspan>
+            Total PRs Authored: <tspan font-weight="bold">20</tspan>
         </text>
     </g>
     
