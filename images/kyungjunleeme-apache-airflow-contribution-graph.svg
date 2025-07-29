@@ -68,19 +68,19 @@
         <text x="1112" y="555.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">0</text>
     
         
-        <text x="1112" y="465.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">4</text>
+        <text x="1112" y="465.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">5</text>
     
         
-        <text x="1112" y="375.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">9</text>
+        <text x="1112" y="375.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">11</text>
     
         
-        <text x="1112" y="285.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">14</text>
+        <text x="1112" y="285.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">16</text>
     
         
-        <text x="1112" y="195.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">19</text>
+        <text x="1112" y="195.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">22</text>
     
         
-        <text x="1112" y="105.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">24</text>
+        <text x="1112" y="105.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">27</text>
     
 
     <!-- Chart title -->
@@ -115,7 +115,7 @@
         d="
             
             
-            M100.0,401.23966942148763
+            M100.0,419.0909090909091
             
             
             
@@ -124,7 +124,7 @@
                 
                 
                 
-                C350.0,401.23966942148763 850.0,140.90909090909093 1100.0,140.90909090909093
+                C350.0,419.0909090909091 850.0,140.90909090909093 1100.0,140.90909090909093
             "
     />
     
@@ -137,7 +137,7 @@
         d="
             
             
-            M100.0,438.4297520661157
+            M100.0,451.8181818181818
             
             
             
@@ -146,7 +146,7 @@
                 
                 
                 
-                C350.0,438.4297520661157 850.0,382.6446280991736 1100.0,382.6446280991736
+                C350.0,451.8181818181818 850.0,370.0 1100.0,370.0
             "
     />
     
@@ -155,7 +155,7 @@
         
         
         
-        <circle cx="100.0" cy="401.23966942148763" r="5" fill="#2f80ed" opacity="0">
+        <circle cx="100.0" cy="419.0909090909091" r="5" fill="#2f80ed" opacity="0">
             <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.0s" fill="freeze" />
         </circle>
     
@@ -172,14 +172,14 @@
         
         
         
-        <circle cx="100.0" cy="438.4297520661157" r="5" fill="#4c71f2" opacity="0">
+        <circle cx="100.0" cy="451.8181818181818" r="5" fill="#4c71f2" opacity="0">
             <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.0s" fill="freeze" />
         </circle>
     
         
         
         
-        <circle cx="1100.0" cy="382.6446280991736" r="5" fill="#4c71f2" opacity="0">
+        <circle cx="1100.0" cy="370.0" r="5" fill="#4c71f2" opacity="0">
             <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.75s" fill="freeze" />
         </circle>
     
@@ -189,7 +189,7 @@
         <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0s" fill="freeze" />
         <rect x="130" y="115" width="233" height="30" rx="5" ry="5" fill="#2f80ed" fill-opacity="0.5" />
         <text x="140" y="137" font-family="Arial" font-size="20" fill="#434d58">
-            Total PRs Authored: <tspan font-weight="bold">30</tspan>
+            Total PRs Authored: <tspan font-weight="bold">33</tspan>
         </text>
     </g>
     
@@ -198,7 +198,7 @@
         <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.5s" fill="freeze" />
         <rect x="130" y="155" width="233" height="30" rx="5" ry="5" fill="#4c71f2" fill-opacity="0.5" />
         <text x="140" y="177" font-family="Arial" font-size="20" fill="#434d58">
-            Total PRs Reviewed: <tspan font-weight="bold">15</tspan>
+            Total PRs Reviewed: <tspan font-weight="bold">17</tspan>
         </text>
     </g>
 </svg>
