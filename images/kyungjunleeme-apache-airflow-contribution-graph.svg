@@ -68,19 +68,19 @@
         <text x="1112" y="555.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">0</text>
     
         
-        <text x="1112" y="465.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">5</text>
+        <text x="1112" y="465.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">6</text>
     
         
-        <text x="1112" y="375.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">11</text>
+        <text x="1112" y="375.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">12</text>
     
         
-        <text x="1112" y="285.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">17</text>
+        <text x="1112" y="285.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">18</text>
     
         
-        <text x="1112" y="195.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">23</text>
+        <text x="1112" y="195.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">24</text>
     
         
-        <text x="1112" y="105.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">29</text>
+        <text x="1112" y="105.0" font-family="Arial" font-size="18" text-anchor="start" fill="#434d58">30</text>
     
 
     <!-- Chart title -->
@@ -115,7 +115,7 @@
         d="
             
             
-            M100.0,428.7878787878788
+            M100.0,433.1168831168831
             
             
             
@@ -124,7 +124,7 @@
                 
                 
                 
-                C350.0,428.7878787878788 850.0,140.90909090909093 1100.0,140.90909090909093
+                C350.0,433.1168831168831 850.0,140.909090909091 1100.0,140.909090909091
             "
     />
     
@@ -137,7 +137,7 @@
         d="
             
             
-            M100.0,459.0909090909091
+            M100.0,462.3376623376623
             
             
             
@@ -146,7 +146,7 @@
                 
                 
                 
-                C350.0,459.0909090909091 850.0,383.33333333333337 1100.0,383.33333333333337
+                C350.0,462.3376623376623 850.0,374.6753246753247 1100.0,374.6753246753247
             "
     />
     
@@ -155,14 +155,14 @@
         
         
         
-        <circle cx="100.0" cy="428.7878787878788" r="5" fill="#2f80ed" opacity="0">
+        <circle cx="100.0" cy="433.1168831168831" r="5" fill="#2f80ed" opacity="0">
             <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.0s" fill="freeze" />
         </circle>
     
         
         
         
-        <circle cx="1100.0" cy="140.90909090909093" r="5" fill="#2f80ed" opacity="0">
+        <circle cx="1100.0" cy="140.909090909091" r="5" fill="#2f80ed" opacity="0">
             <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.75s" fill="freeze" />
         </circle>
     
@@ -172,14 +172,14 @@
         
         
         
-        <circle cx="100.0" cy="459.0909090909091" r="5" fill="#4c71f2" opacity="0">
+        <circle cx="100.0" cy="462.3376623376623" r="5" fill="#4c71f2" opacity="0">
             <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.0s" fill="freeze" />
         </circle>
     
         
         
         
-        <circle cx="1100.0" cy="383.33333333333337" r="5" fill="#4c71f2" opacity="0">
+        <circle cx="1100.0" cy="374.6753246753247" r="5" fill="#4c71f2" opacity="0">
             <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.75s" fill="freeze" />
         </circle>
     
@@ -189,7 +189,7 @@
         <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0s" fill="freeze" />
         <rect x="130" y="115" width="233" height="30" rx="5" ry="5" fill="#2f80ed" fill-opacity="0.5" />
         <text x="140" y="137" font-family="Arial" font-size="20" fill="#434d58">
-            Total PRs Authored: <tspan font-weight="bold">35</tspan>
+            Total PRs Authored: <tspan font-weight="bold">36</tspan>
         </text>
     </g>
     
@@ -198,7 +198,7 @@
         <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.5s" fill="freeze" />
         <rect x="130" y="155" width="233" height="30" rx="5" ry="5" fill="#4c71f2" fill-opacity="0.5" />
         <text x="140" y="177" font-family="Arial" font-size="20" fill="#434d58">
-            Total PRs Reviewed: <tspan font-weight="bold">17</tspan>
+            Total PRs Reviewed: <tspan font-weight="bold">18</tspan>
         </text>
     </g>
 </svg>
