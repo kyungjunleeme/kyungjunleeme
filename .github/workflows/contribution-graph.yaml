@@ -37,6 +37,11 @@ jobs:
           output_dir: 'images'
           exclude_authored_from_reviewed: ${{ github.event.inputs.exclude_review || env.EXCLUDE_REVIEW }}
 
+      - name: Strip trailing ".0" in SVG labels
+        run: |
+          perl -0777 -pe 's/(?<=\>)(\s*)(\d+)\.0(?=\s*\<)/$1$2/g' \
+            -i images/kyungjunleeme-apache-airflow-contribution-graph.svg
+
       - name: Commit and push updated image
         run: |
           git config --global user.name 'GitHub Action'
