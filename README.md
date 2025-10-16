@@ -5,7 +5,7 @@
 
 
 
-Welcome to my page! I'm Kyungjun Lee, a Data Engineer living in Seoul, Korea.
+Welcome to my page! I'm Kyungjun Lee, a Data Engineer / Data Analytics Engineer living in Seoul, Korea.
 </br>
 
 
