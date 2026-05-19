@@ -99,30 +99,40 @@
     
     <!-- X-axis labels (months) -->
     
+    
         
         <text x="100.0" y="580" font-family="Arial" font-size="18" text-anchor="middle" transform="rotate(0, 100.0, 580)" fill="#434d58">
             2025-06
         </text>
+    
+    
     
         
         <text x="350.0" y="580" font-family="Arial" font-size="18" text-anchor="middle" transform="rotate(0, 350.0, 580)" fill="#434d58">
             2025-07
         </text>
     
+    
+    
         
         <text x="600.0" y="580" font-family="Arial" font-size="18" text-anchor="middle" transform="rotate(0, 600.0, 580)" fill="#434d58">
             2025-08
         </text>
+    
+    
     
         
         <text x="850.0" y="580" font-family="Arial" font-size="18" text-anchor="middle" transform="rotate(0, 850.0, 580)" fill="#434d58">
             2025-10
         </text>
     
+    
+    
         
         <text x="1100.0" y="580" font-family="Arial" font-size="18" text-anchor="middle" transform="rotate(0, 1100.0, 580)" fill="#434d58">
             2025-12
         </text>
+    
     
     
     <!-- Y-axis label -->
