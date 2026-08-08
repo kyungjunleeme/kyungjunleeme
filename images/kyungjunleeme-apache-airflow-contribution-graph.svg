@@ -357,20 +357,24 @@
     
         
     <!-- Authored legend item -->
-    <g opacity="0">
-        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0s" fill="freeze" />
-        <rect x="130" y="115" width="233" height="30" rx="5" ry="5" fill="#2f80ed" fill-opacity="0.5" />
-        <text x="140" y="137" font-family="Arial" font-size="20" fill="#434d58">
-            Total PRs Authored: <tspan font-weight="bold">47</tspan>
-        </text>
-    </g>
+    <a href="https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Akyungjunleeme">
+        <g opacity="0">
+            <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0s" fill="freeze" />
+            <rect x="130" y="115" width="233" height="30" rx="5" ry="5" fill="#2f80ed" fill-opacity="0.5" />
+            <text x="140" y="137" font-family="Arial" font-size="20" fill="#434d58">
+                Total PRs Authored: <tspan font-weight="bold">47</tspan>
+            </text>
+        </g>
+    </a>
     
     <!-- Reviewed legend item -->
-    <g opacity="0">
-        <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.5s" fill="freeze" />
-        <rect x="130" y="155" width="233" height="30" rx="5" ry="5" fill="#4c71f2" fill-opacity="0.5" />
-        <text x="140" y="177" font-family="Arial" font-size="20" fill="#434d58">
-            Total PRs Reviewed: <tspan font-weight="bold">22</tspan>
-        </text>
-    </g>
+    <a href="https://github.com/apache/airflow/pulls?q=is%3Apr+reviewed-by%3Akyungjunleeme">
+        <g opacity="0">
+            <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.5s" fill="freeze" />
+            <rect x="130" y="155" width="233" height="30" rx="5" ry="5" fill="#4c71f2" fill-opacity="0.5" />
+            <text x="140" y="177" font-family="Arial" font-size="20" fill="#434d58">
+                Total PRs Reviewed: <tspan font-weight="bold">22</tspan>
+            </text>
+        </g>
+    </a>
 </svg>
